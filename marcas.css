@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lugrasimo&display=swap');
+
+*{
+    font-size: clamp (0.9rem, 1vw, 1.5rem);
+}
+
+body{
+    background-color: #F2E3D5;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: white; /* #59332567; */
+    width: 100%;
+    height: 150px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.444);
+}
+
+nav{
+    text-align: center;
+    width: 100%;
+    background-color: white; /* #B49C8E; */
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-bottom: 10px;
+}
+
+nav > a{
+    font-size: 20px;
+    font-weight: 600;
+    color: #593325;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.214);
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
+
+h1{
+    color: #593325;
+    font-family: "Great Vibes", cursive;
+    font-size: 70px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+
+h2{
+    text-indent: 5px;
+    margin-top: 5px;
+}
+
+h4{
+    text-align: center;
+    font-family: "Lugrasimo", cursive;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #F2E3D5;
+    padding: 3px;
+}
+
+.empresa{
+    text-align: justify;
+    text-indent: 10px;
+    line-height: 2em;
+    margin: 2px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ main{
+    text-align: center;
+    width: 100%;
+}
+
+div.galeria{
+    background-color: white;
+    width: 300px;
+    height: auto;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    border-radius: 5px; 
+    display: inline-block;
+    text-align: left;
+}
+
+div.galeria:hover{
+    background-color:#cb9d92;   
+    /* #d8a0a0 */
+}
+
+div.galeria img{
+    width: 90%;
+    height: auto;
+}
+
+div.galeria p{
+    text-align: center;
+}
+
+button{
+    background-color: white;
+    padding: 15px;
+    margin-top: 10px;
+    border: 2px solid #F2E3D5;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.092);
+    cursor: pointer;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #7a5346;
+    color: rgba(240, 248, 255, 0.786);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer a{
+    color: rgba(240, 248, 255, 0.786);
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
