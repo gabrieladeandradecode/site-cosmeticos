@@ -54,8 +54,13 @@ nav > a:hover{
     transition-duration: 0.2s;
 }
 
-div{
+main{
     text-align: center;
+}
+
+div{
+    max-width: 400px;
+    display: inline-block;
 }
 
 img{
